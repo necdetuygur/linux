@@ -1,4 +1,9 @@
 ### Docker
 ```sh
-curl -s https://github.com/necdetuygur/linux/docker.sh | bash
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/docker.sh | bash
+```
+
+### Node
+```sh
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/node.sh | bash
 ```
