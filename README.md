@@ -7,4 +7,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/node.sh | bas
 
 ### yt-dlp
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/yt-dlp.sh | bash
+
+### Repeat
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | bash
 ```
