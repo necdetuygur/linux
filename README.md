@@ -10,4 +10,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/yt-dlp.sh | b
 
 ### Repeat
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | bash
+
+### Brave
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | bash
 ```
