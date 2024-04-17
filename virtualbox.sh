@@ -12,3 +12,8 @@ sudo apt install -f -y ./virtualbox.deb
 # sudo apt install --reinstall virtualbox-dkms -y
 # sudo apt install libelf-dev -y
 # sudo /sbin/vboxconfig
+
+# sudo bash -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian eoan contrib" >> /etc/apt/sources.list'
+# wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --es --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+# sudo apt update
+# sudo apt install -y virtualbox-7.0
