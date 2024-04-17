@@ -22,4 +22,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/sublime-text.
 
 ### VS Code
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/code.sh | bash
+
+### AnyDesk
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/anydesk.sh | bash
 ```
