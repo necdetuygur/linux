@@ -24,6 +24,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/docker.sh | b
 ### node.sh (Node)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/node.sh | bash
 
+### pinta.sh (Pinta)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/pinta.sh | bash
+
 ### repeat.sh (Repeat)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | bash
 
