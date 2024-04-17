@@ -9,6 +9,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | ba
 ### chrome.sh (Google Chrome)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/chrome.sh | bash
 
+### cursor.sh (El Capitan Cursor)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/cursor.sh | bash
+
 ### code.sh (VS Code)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/code.sh | bash
 
