@@ -16,4 +16,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | ba
 
 ### Sublime Text
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/sublime-text.sh | bash
+
+### VS Code
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/code.sh | bash
 ```
