@@ -14,6 +14,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | b
 ### Brave
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | bash
 
+### Google Chrome
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/chrome.sh | bash
+
 ### Sublime Text
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/sublime-text.sh | bash
 
