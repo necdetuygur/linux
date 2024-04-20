@@ -12,6 +12,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/chrome.sh | b
 ### code.sh (VS Code)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/code.sh | bash
 
+### copyq.sh (CopyQ)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/copyq.sh | bash
+
 ### cursor.sh (El Capitan Cursor)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/cursor.sh | bash
 
