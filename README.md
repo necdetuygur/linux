@@ -15,7 +15,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/code.sh | bas
 ### copyq.sh (CopyQ)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/copyq.sh | bash
 
-### cursor.sh (El Capitan Cursor)
+### cursor.sh (MacOS Cursor)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/cursor.sh | bash
 
 ### discord.sh (Discord)
