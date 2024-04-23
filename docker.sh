@@ -1,4 +1,12 @@
-sudo echo $(date "+%F %H:%M:%S")
+sudo echo ""
+sudo echo ""
+sudo echo ""
+sudo echo "   /*********************\\"
+sudo echo "   | $(date "+%F %H:%M:%S") |"
+sudo echo "   \\*********************/"
+sudo echo ""
+sudo echo ""
+sudo echo ""
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh

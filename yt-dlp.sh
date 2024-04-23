@@ -1,4 +1,12 @@
-sudo echo $(date "+%F %H:%M:%S")
+sudo echo ""
+sudo echo ""
+sudo echo ""
+sudo echo "   /*********************\\"
+sudo echo "   | $(date "+%F %H:%M:%S") |"
+sudo echo "   \\*********************/"
+sudo echo ""
+sudo echo ""
+sudo echo ""
 
 sudo apt update -y
 sudo apt install python3-pip -y

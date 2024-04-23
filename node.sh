@@ -1,4 +1,12 @@
-sudo echo $(date "+%F %H:%M:%S")
+sudo echo ""
+sudo echo ""
+sudo echo ""
+sudo echo "   /*********************\\"
+sudo echo "   | $(date "+%F %H:%M:%S") |"
+sudo echo "   \\*********************/"
+sudo echo ""
+sudo echo ""
+sudo echo ""
 
 curl -L -o "node-v20.12.2-linux-x64.tar.xz" -C - "https://nodejs.org/dist/v20.12.2/node-v20.12.2-linux-x64.tar.xz"
 sudo tar -xf node-v20.12.2-linux-x64.tar.xz

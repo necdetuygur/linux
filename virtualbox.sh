@@ -1,4 +1,12 @@
-sudo echo $(date "+%F %H:%M:%S")
+sudo echo ""
+sudo echo ""
+sudo echo ""
+sudo echo "   /*********************\\"
+sudo echo "   | $(date "+%F %H:%M:%S") |"
+sudo echo "   \\*********************/"
+sudo echo ""
+sudo echo ""
+sudo echo ""
 
 sudo add-apt-repository universe
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
