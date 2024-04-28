@@ -6,6 +6,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/anydesk.sh | 
 ### appimagelauncher.sh (AppImageLauncher)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/appimagelauncher.sh | bash
 
+### bleachbit.sh (BleachBit)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/bleachbit.sh | bash
+
 ### brave.sh (Brave)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | bash
 
