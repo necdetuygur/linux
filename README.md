@@ -3,6 +3,9 @@
 ### anydesk.sh (AnyDesk)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/anydesk.sh | bash
 
+### appimagelauncher.sh (AppImageLauncher)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/appimagelauncher.sh | bash
+
 ### brave.sh (Brave)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | bash
 
