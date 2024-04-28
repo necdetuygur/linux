@@ -27,6 +27,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/discord.sh | 
 ### docker.sh (Docker)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/docker.sh | bash
 
+### ffmpeg.sh (FFmpeg)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/ffmpeg.sh | bash
+
 ### font.sh (Fira Sans Font)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/font.sh | bash
 
