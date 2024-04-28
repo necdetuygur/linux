@@ -8,4 +8,5 @@ sudo echo ""
 sudo echo ""
 sudo echo ""
 
+sudo apt update
 sudo apt install -y transmission
