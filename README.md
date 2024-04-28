@@ -42,6 +42,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | b
 ### sublime-text.sh (Sublime Text)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/sublime-text.sh | bash
 
+### transmission.sh (Transmission)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/transmission.sh | bash
+
 ### virtualbox.sh (VirtualBox)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/virtualbox.sh | bash
 
