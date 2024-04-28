@@ -48,6 +48,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/transmission.
 ### virtualbox.sh (VirtualBox)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/virtualbox.sh | bash
 
+### vlc.sh (VLC)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/vlc.sh | bash
+
 ### yt-dlp.sh (yt-dlp)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/yt-dlp.sh | bash
 
