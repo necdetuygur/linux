@@ -9,6 +9,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/appimagelaunc
 ### bleachbit.sh (BleachBit)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/bleachbit.sh | bash
 
+### boxes.sh (GNOME Boxes)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/boxes.sh | bash
+
 ### brave.sh (Brave)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/brave.sh | bash
 
