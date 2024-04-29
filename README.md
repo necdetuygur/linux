@@ -36,6 +36,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/ffmpeg.sh | b
 ### font.sh (Fira Sans Font)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/font.sh | bash
 
+### git.sh (Git)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/git.sh | bash
+
 ### node.sh (Node)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/node.sh | bash
 
