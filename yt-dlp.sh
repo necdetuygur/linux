@@ -15,6 +15,7 @@ sudo pip3 install yt-dlp
 
 curl -L -o "yt-dlp" -C - "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp"
 sudo mv yt-dlp /usr/local/bin/
+sudo chmod -R 755 /usr/local/bin/yt-dlp
 
 yt-dlp --version
 
