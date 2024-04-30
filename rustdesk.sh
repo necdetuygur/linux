@@ -8,7 +8,5 @@ sudo echo ""
 sudo echo ""
 sudo echo ""
 
-curl -L -o "anydesk.deb" -C - "https://download.anydesk.com/linux/anydesk_6.3.2-1_amd64.deb"
-sudo apt install -fy ./anydesk.deb
-sudo apt install -f
-sudo apt install -fy ./anydesk.deb
+curl -L -o "rustdesk.deb" -C - "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb"
+sudo apt install -fy ./rustdesk.deb

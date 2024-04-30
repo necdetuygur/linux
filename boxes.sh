@@ -9,4 +9,4 @@ sudo echo ""
 sudo echo ""
 
 sudo apt update
-sudo apt install -y gnome-boxes
+sudo apt install -fy gnome-boxes
