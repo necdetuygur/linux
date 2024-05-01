@@ -54,6 +54,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/pinta.sh | ba
 ### repeat.sh (Repeat)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | bash
 
+### rustdesk.sh (RustDesk)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/rustdesk.sh | bash
+
 ### sublime-text.sh (Sublime Text)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/sublime-text.sh | bash
 
