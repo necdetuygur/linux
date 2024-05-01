@@ -42,6 +42,9 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/font.sh | bas
 ### git.sh (Git)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/git.sh | bash
 
+### grub-customizer.sh (GRUB Customizer)
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/grub-customizer.sh | bash
+
 ### node.sh (Node)
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/node.sh | bash
 
