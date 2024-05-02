@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linux</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+      body {
+        font-family: "Fira Sans", sans-serif;
+      }
+
+      pre {
+        font-family: "JetBrains Mono";
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content"></div>
+    <button type="button" onclick="copyBash()">Copy</button>
+    <pre id="bash"></pre>
+
+    <script>
+      const list = [
+        { value: "anydesk", text: "AnyDesk", status: false },
+        { value: "appimagelauncher", text: "AppImageLauncher", status: false },
+        { value: "bleachbit", text: "BleachBit", status: false },
+        { value: "boxes", text: "GNOME Boxes", status: false },
+        { value: "brave", text: "Brave", status: false },
+        { value: "chrome", text: "Google Chrome", status: false },
+        { value: "code", text: "VS Code", status: false },
+        { value: "copyq", text: "CopyQ", status: false },
+        { value: "cursor", text: "MacOS Cursor", status: false },
+        { value: "discord", text: "Discord", status: false },
+        { value: "docker", text: "Docker", status: false },
+        { value: "ffmpeg", text: "FFmpeg", status: false },
+        { value: "font", text: "Fira Sans Font", status: false },
+        { value: "git", text: "Git", status: false },
+        { value: "grub-customizer", text: "GRUB Customizer", status: false },
+        { value: "node", text: "Node", status: false },
+        { value: "pinta", text: "Pinta", status: false },
+        { value: "repeat", text: "Repeat", status: false },
+        { value: "rustdesk", text: "RustDesk", status: false },
+        { value: "sublime-text", text: "Sublime Text", status: false },
+        { value: "transmission", text: "Transmission", status: false },
+        { value: "virtualbox", text: "VirtualBox", status: false },
+        { value: "vlc", text: "VLC", status: false },
+        { value: "yt-dlp", text: "yt-dlp", status: false },
+      ];
+
+      const htmlRow = (value, text) => {
+        return `
+				<label style="display: flex;align-items: center;">
+						<input type="checkbox" onclick="checkboxClick(this, '${value}')" />
+						${text}
+				</label>
+			`;
+      };
+
+      const bashRow = (value) => {
+        return `curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/${value}.sh | bash`;
+      };
+
+      const checkboxClick = (el, value) => {
+        list.find((item) => item.value == value).status = el.checked;
+        document.querySelector("#bash").innerHTML = "";
+        for (const item of list) {
+          if (item.status)
+            document.querySelector("#bash").innerHTML += `${bashRow(
+              item.value
+            )}\n`;
+        }
+      };
+
+      for (const item of list)
+        document.querySelector("#content").innerHTML += htmlRow(
+          item.value,
+          item.text
+        );
+
+      const copyBash = () =>
+        navigator.clipboard.writeText(
+          document.querySelector("#bash").innerText
+        );
+    </script>
+  </body>
+</html>
