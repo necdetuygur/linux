@@ -21,12 +21,15 @@
       body {
         background-color: light-dark(var(--light-bg), var(--dark-bg));
         color: light-dark(var(--light-color), var(--dark-color));
-
         font-family: "Fira Sans", sans-serif;
       }
 
       pre {
         font-family: "JetBrains Mono";
+      }
+
+      label {
+        margin-bottom: 5px;
       }
     </style>
   </head>
@@ -66,11 +69,11 @@
 
       const htmlRow = (value, text) => {
         return `
-				<label style="display: flex;align-items: center;">
-						<input type="checkbox" onclick="checkboxClick(this, '${value}')" />
-						${text}
-				</label>
-			`;
+					<label style="display: flex;align-items: center;">
+							<input type="checkbox" onclick="checkboxClick(this, '${value}')" />
+							${text}
+					</label>
+				`;
       };
 
       const bashRow = (value) => {

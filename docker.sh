@@ -6,6 +6,8 @@ sudo echo ""
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+sudo apt install -y uidmap
+dockerd-rootless-setuptool.sh install
 
 # sudo docker run -it --rm -d -p 8080:80 --name web1 nginx:alpine
 # sudo docker ps
