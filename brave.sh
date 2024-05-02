@@ -21,5 +21,5 @@ sudo apt update
 curl -L -o "brave.deb" -C - "https://github.com/brave/brave-browser/releases/download/v1.65.126/brave-browser_1.65.126_amd64.deb"
 sudo apt install -fy ./brave.deb
 sudo dpkg -i ./brave.deb
-sudo apt install -f
+sudo apt install -fy
 sudo dpkg -i ./brave.deb
