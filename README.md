@@ -15,6 +15,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/copyq.sh | ba
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/cursor.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/discord.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/docker.sh | bash
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/dotnet.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/ffmpeg.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/font.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/git.sh | bash
