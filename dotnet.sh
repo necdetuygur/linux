@@ -4,9 +4,12 @@ sudo echo "   | $(date "+%F %H:%M:%S") |"
 sudo echo "   \\*********************/"
 sudo echo ""
 
-wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
-chmod +x ./dotnet-install.sh
-./dotnet-install.sh --version latest
+# wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
+# chmod +x ./dotnet-install.sh
+# ./dotnet-install.sh --version latest
 
-echo "export PATH=\"$PATH:$HOME/.dotnet\"" >> ~/.profile
-echo "export PATH=\"$PATH:$HOME/.dotnet\"" >> ~/.bashrc
+# echo "export PATH=\"$PATH:$HOME/.dotnet\"" >> ~/.profile
+# echo "export PATH=\"$PATH:$HOME/.dotnet\"" >> ~/.bashrc
+
+sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-8.0
