@@ -25,6 +25,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/pinta.sh | ba
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/rustdesk.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/sublime-text.sh | bash
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/tgpt.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/transmission.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/virtualbox.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/vlc.sh | bash
