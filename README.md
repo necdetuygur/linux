@@ -21,6 +21,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/font.sh | bas
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/git.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/grub-customizer.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/node.sh | bash
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/nupdate.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/pinta.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/repeat.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/rustdesk.sh | bash
