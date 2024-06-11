@@ -1,4 +1,4 @@
-cat << EOF > /usr/local/bin/nupdate
+sudo cat << EOF > /usr/local/bin/nupdate
 #!/bin/bash
 
 sudo echo ""
