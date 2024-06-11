@@ -7,11 +7,11 @@ sudo echo ""
 sudo cat << EOF > nupdate
 #!/bin/bash
 
-sudo echo ""
-sudo echo "   /*********************\\"
-sudo echo "   | $(date "+%F %H:%M:%S") |"
-sudo echo "   \\*********************/"
-sudo echo ""
+sudo echo \"\"
+sudo echo \"   /*********************\\\\\"
+sudo echo \"   | $(date \"+%F %H:%M:%S\") |\"
+sudo echo \"   \\\\*********************/\"
+sudo echo \"\"
 
 sudo apt update -y
 sudo apt upgrade -y
