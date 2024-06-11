@@ -13,6 +13,20 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 sudo apt autopurge -y
 sudo apt autoclean -y
+
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+sudo apt autopurge -y
+sudo apt autoclean -y
+
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+sudo apt autopurge -y
+sudo apt autoclean -y
 EOF
 
 sudo mv nupdate /usr/local/bin/
