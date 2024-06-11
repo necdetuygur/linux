@@ -9,7 +9,7 @@ sudo cat << EOF > nupdate
 
 sudo echo \"\"
 sudo echo \"   /*********************\\\\\"
-sudo echo \"   | $(date \"+%F %H:%M:%S\") |\"
+sudo echo \"   \| $(date \"+%F %H:%M:%S\") \|\"
 sudo echo \"   \\\\*********************/\"
 sudo echo \"\"
 
