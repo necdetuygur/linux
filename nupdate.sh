@@ -1,3 +1,9 @@
+sudo echo ""
+sudo echo "   /*********************\\"
+sudo echo "   | $(date "+%F %H:%M:%S") |"
+sudo echo "   \\*********************/"
+sudo echo ""
+
 sudo cat << EOF > /usr/local/bin/nupdate
 #!/bin/bash
 
