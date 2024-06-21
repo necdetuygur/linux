@@ -4,10 +4,10 @@ sudo echo "   | $(date "+%F %H:%M:%S") |"
 sudo echo "   \\*********************/"
 sudo echo ""
 
-curl -L -o "node-v20.14.0-linux-x64.tar.xz" -C - "https://nodejs.org/dist/v20.14.0/node-v20.14.0-linux-x64.tar.xz"
-sudo tar -xf node-v20.14.0-linux-x64.tar.xz
-sudo cp -r node-v20.14.0-linux-x64/{bin,include,lib,share} /usr/
-sudo rm -rf node-v20.14.0-linux-x64
+curl -L -o "node-v20.15.0-linux-x64.tar.xz" -C - "https://nodejs.org/dist/v20.15.0/node-v20.15.0-linux-x64.tar.xz"
+sudo tar -xf node-v20.15.0-linux-x64.tar.xz
+sudo cp -r node-v20.15.0-linux-x64/{bin,include,lib,share} /usr/
+sudo rm -rf node-v20.15.0-linux-x64
 sudo npm install -g npm
 sudo chmod -R 755 $(which node)
 sudo chmod -R 755 $(which npm)
