@@ -31,6 +31,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/transmission.
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/virtualbox.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/vlc.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/yt-dlp.sh | bash
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/zorin-dot-icon.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/zorin-u-icon.sh | bash
 
 ```
