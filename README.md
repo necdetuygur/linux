@@ -17,6 +17,7 @@ curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/discord.sh | 
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/docker.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/dotnet.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/ffmpeg.sh | bash
+curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/firefox-dev.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/font.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/git.sh | bash
 curl -s https://raw.githubusercontent.com/necdetuygur/linux/master/grub-customizer.sh | bash
