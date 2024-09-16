@@ -9,10 +9,10 @@ sudo cat << EOF > m
 
 file_path="/usr/local/bin/ydotoold"
 
-if [ -e "$file_path" ]; then
-  echo "Available $file_path"
+if [ -e "\$file_path" ]; then
+  echo "Available \$file_path"
 else
-  echo "Not Available $file_path"
+  echo "Not Available \$file_path"
 
   cd
   cd Documents
