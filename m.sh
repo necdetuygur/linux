@@ -44,12 +44,6 @@ do
   sudo ydotool click 0xC0 # Left
   sudo sleep 1
 
-  sudo ydotool mousemove --absolute -x 0 -y 0
-  sudo ydotool mousemove --absolute -x 3 -y 3
-  sudo ydotool click 0xC1 # Right
-  sudo ydotool click 0xC0 # Left
-  sudo sleep 1
-
   sleep 9
 done
 EOF
