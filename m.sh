@@ -44,7 +44,7 @@ do
   sudo ydotool click 0xC0 # Left
   sudo sleep 1
 
-  sleep 9
+  sleep 30
 done
 EOF
 
