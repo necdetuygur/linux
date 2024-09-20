@@ -53,3 +53,5 @@ sudo mv m /usr/local/bin/
 sudo chmod 777 /usr/local/bin/m
 
 m
+
+# gnome-terminal -- bash -c "/usr/local/bin/m"
