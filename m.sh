@@ -18,7 +18,7 @@ else
   cd Documents
 
   sudo apt update
-  sudo apt install build-essential cmake libudev-dev git
+  sudo apt install build-essential cmake libudev-dev git -y
   git clone https://github.com/ReimuNotMoe/ydotool.git
   cd ydotool
   mkdir build
