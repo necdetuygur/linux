@@ -34,3 +34,5 @@ sudo mv nupdate /usr/local/bin/
 sudo chmod 777 /usr/local/bin/nupdate
 
 nupdate
+
+# echo "<password>" | sudo -S nupdate
