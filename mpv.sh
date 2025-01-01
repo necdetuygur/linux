@@ -6,6 +6,9 @@ sudo echo ""
 
 sudo apt install mpv -y
 
+mkdir ~/.config/
+mkdir ~/.config/mpv/
+
 echo "s add speed -0.05" >> ~/.config/mpv/input.conf
 echo "S add speed -0.05" >> ~/.config/mpv/input.conf
 echo "d add speed 0.05" >> ~/.config/mpv/input.conf
