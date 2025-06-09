@@ -20,4 +20,10 @@ echo "J seek -10" >> ~/.config/mpv/input.conf
 echo "l seek 10" >> ~/.config/mpv/input.conf
 echo "L seek 10" >> ~/.config/mpv/input.conf
 
-# Windows: %appdata%\mpv\input.conf
+# Windows:
+# %appdata%\mpv\input.conf
+
+# Mac:
+# https://laboratory.stolendata.net/~djinn/mpv_osx/
+# sudo rm -rf /usr/local/bin/mpv
+# sudo ln -s /Applications/mpv.app/Contents/MacOS/mpv /usr/local/bin/mpv
