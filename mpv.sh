@@ -20,6 +20,8 @@ echo "J seek -10" >> ~/.config/mpv/input.conf
 echo "l seek 10" >> ~/.config/mpv/input.conf
 echo "L seek 10" >> ~/.config/mpv/input.conf
 
+echo "vf-add=fps=25:round=near" >> ~/.config/mpv/mpv.conf
+
 # Windows:
 # %appdata%\mpv\input.conf
 
