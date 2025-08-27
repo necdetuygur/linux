@@ -7,7 +7,7 @@ sudo echo ""
 curl -L -o "node-v22.18.0-linux-x64.tar.xz" -C - "https://nodejs.org/dist/v22.18.0/node-v22.18.0-linux-x64.tar.xz"
 sudo tar -xf node-v22.18.0-linux-x64.tar.xz
 sudo cp -r node-v22.18.0-linux-x64/{bin,include,lib,share} /usr/
-sudo rm -rf node-v22.18.0-linux-x64
+sudo rm -rf node-v22.18.0-linux-x64*
 sudo npm install -g npm
 sudo chmod -R 755 $(which node)
 sudo chmod -R 755 $(which npm)
