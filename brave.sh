@@ -4,6 +4,8 @@ sudo echo "   | $(date "+%F %H:%M:%S") |"
 sudo echo "   \\*********************/"
 sudo echo ""
 
+rm -f /etc/apt/sources.list.d/google*.list
+apt update
 curl -fsS https://dl.brave.com/install.sh | sh
 
 # sudo apt install -fy curl
