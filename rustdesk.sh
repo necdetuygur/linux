@@ -10,4 +10,9 @@ wget https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1
 apt install ./rustdesk-1.4.1-x86_64.deb -y
 apt install -f -y
 apt install ./rustdesk-1.4.1-x86_64.deb -y
-sudo apt autoremove -y
+apt autoremove -y
+
+rustdesk --password 'Z3FW24WxHF02UIkBYJrG' > /dev/null 2>&1 &
+rustdesk > /dev/null 2>&1 &
+echo 'ID: ' $(rustdesk --get-id)
+echo 'PW: Z3FW24WxHF02UIkBYJrG'
