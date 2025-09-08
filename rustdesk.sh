@@ -4,7 +4,10 @@ sudo echo "   | $(date "+%F %H:%M:%S") |"
 sudo echo "   \\*********************/"
 sudo echo ""
 
-curl -L -o "rustdesk.deb" -C - "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-x86_64.deb"
-sudo apt install -fy ./rustdesk.deb
-sudo apt install -f
+apt update
+apt install -y wget curl
+wget https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.deb &&
+apt install ./rustdesk-1.4.1-x86_64.deb -y
+apt install -f -y
+apt install ./rustdesk-1.4.1-x86_64.deb -y
 sudo apt autoremove -y
