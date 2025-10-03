@@ -14,4 +14,10 @@ sudo apt install -f
 sudo apt install -fy ./anydesk.deb
 
 echo "Z3FW24WxHF02UIkBYJrG" | sudo anydesk --set-password
-anydesk --get-id
+echo -e "ID: $(anydesk --get-id)\nPW: Z3FW24WxHF02UIkBYJrG"
+
+echo "---"
+echo "Wayland to Xorg"
+echo "sudo sed -i 's/^#WaylandEnable=false/WaylandEnable=false/' /etc/gdm3/custom.conf"
+echo "sudo systemctl restart gdm3"
+echo "---"
