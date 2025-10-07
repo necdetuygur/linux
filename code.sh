@@ -5,4 +5,5 @@ sudo echo "   \\*********************/"
 sudo echo ""
 
 curl -L -o "code.deb" -C - "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
-sudo apt install -fy ./code.deb
+# sudo apt install -fy ./code.deb
+sudo DEBIAN_FRONTEND=noninteractive dpkg -i ./code.deb
