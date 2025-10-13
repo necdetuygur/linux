@@ -17,3 +17,5 @@ tar -xvf Bibata-Modern-Ice.tar.xz
 rm -rf Bibata-*.tar.xz
 sudo cp -r Bibata-* /usr/share/icons/
 rm -rf Bibata-*
+
+gnome-tweaks &
