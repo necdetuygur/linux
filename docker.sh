@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo echo ""
 sudo echo "   /*********************\\"
 sudo echo "   | $(date "+%F %H:%M:%S") |"
