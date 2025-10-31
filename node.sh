@@ -19,12 +19,12 @@ sudo echo ""
 ARCH=$(uname -m)
 
 if [ "$ARCH" == "x86_64" ]; then
-    NODE_URL="https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-x64.tar.xz"
+  NODE_URL="https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-x64.tar.xz"
 elif [ "$ARCH" == "aarch64" ]; then
-    NODE_URL="https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-arm64.tar.xz"
+  NODE_URL="https://nodejs.org/dist/v22.20.0/node-v22.20.0-linux-arm64.tar.xz"
 else
-    echo "UNKNOWN: $ARCH"
-    exit 1
+  echo "UNKNOWN: $ARCH"
+  exit 1
 fi
 
 curl -L -o "node.tar.xz" -C - "$NODE_URL"
