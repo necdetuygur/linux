@@ -27,17 +27,11 @@ else
     exit 1
 fi
 
-echo ""
-echo "   /*********************\\"
-echo "   | $(date "+%F %H:%M:%S") |"
-echo "   \\*********************/"
-echo ""
-
 curl -L -o "node.tar.xz" -C - "$NODE_URL"
 
 sudo tar -xf node.tar.xz
 
-sudo cp -r node-v22.20.0-linux-*{bin,include,lib,share} /usr/
+sudo cp -r node-v22.20.0-linux-*/{bin,include,lib,share} /usr/
 
 sudo rm -rf node-v22.20.0-linux-*
 
