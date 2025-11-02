@@ -8,10 +8,10 @@ sudo echo ""
 
 apt update
 apt install -y wget curl
-wget https://github.com/rustdesk/rustdesk/releases/download/1.4.2/rustdesk-1.4.2-x86_64.deb &&
-apt install ./rustdesk-1.4.2-x86_64.deb -y
+curl -L -o "rustdesk-1.4.3-x86_64.deb" -C - "https://github.com/rustdesk/rustdesk/releases/download/1.4.3/rustdesk-1.4.3-x86_64.deb"
+apt install ./rustdesk-1.4.3-x86_64.deb -y
 apt install -f -y
-apt install ./rustdesk-1.4.2-x86_64.deb -y
+apt install ./rustdesk-1.4.3-x86_64.deb -y
 apt autoremove -y
 
 rustdesk --password 'Z3FW24WxHF02UIkBYJrG' > /dev/null 2>&1 &
