@@ -13,7 +13,9 @@ echo "📦 Gerekli paketler yükleniyor..."
 sudo apt install ffmpeg v4l2loopback-dkms -y
 
 echo "🎥 OBS Studio kurulumu başlatılıyor..."
-sudo apt install obs-studio -y
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio -fy
 
 echo "✅ Kurulum tamamlandı!"
 echo "OBS Studio'yu başlatmak için terminale 'obs' yazabilirsin."
