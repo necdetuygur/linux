@@ -7,14 +7,13 @@ sudo echo "   \\*********************/"
 sudo echo ""
 
 echo "🔄 Sistem güncelleniyor..."
+sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update && sudo apt upgrade -y
 
 echo "📦 Gerekli paketler yükleniyor..."
 sudo apt install ffmpeg v4l2loopback-dkms -y
 
 echo "🎥 OBS Studio kurulumu başlatılıyor..."
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt update
 sudo apt install obs-studio -fy
 
 echo "✅ Kurulum tamamlandı!"
